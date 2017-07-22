@@ -1,8 +1,8 @@
 # Site settings
 title: "@JhonCoder Blog"
 description: "A blog about lorem ipsum ..."
-baseurl: "" # for test: remove string '' to ''
-url: "https://github.com/TheFenixfx" 
+baseurl: ""
+url: 'https://github.com/TheFenixfx.io' 
 # User settings
 username: Jhon Coder
 user_title: Jhon Coder
