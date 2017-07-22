@@ -1,0 +1,47 @@
+# Site settings
+title: "@JhonCoder Blog"
+description: "A blog about lorem ipsum ..."
+baseurl: "" # for test: remove string '' to ''
+url: "https://github.com/TheFenixfx" 
+# User settings
+username: Jhon Coder
+user_title: Jhon Coder
+email: knifefx@gmail.com
+twitter_username: jhoncoder
+github_username:  TheFenixfx
+gplus_username:  loremipsum
+disqus_username: http-jhoncoder-com
+profile_picture: https://68.media.tumblr.com/66efbddda167e09e556d7ab13bc9fcd9/tumblr_oth99fwlUM1wvzjayo1_1280.gif
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: MountainWeb
+    url: https://github.com/TheFenixfx/MountainWeb
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

@@ -1,0 +1,18 @@
+---
+layout: minimal
+title: "About me"
+permalink: /about/index.html
+description: "No matter if you ignore, what matters is that you can learn."
+---
+
+<img itemprop="image" class="img-rounded about_perfil" src=" https://68.media.tumblr.com/66efbddda167e09e556d7ab13bc9fcd9/tumblr_oth99fwlUM1wvzjayo1_1280.gif" alt="My profile">
+
+<h2>My projects</h2>
+
+<div class="aboutme">
+	<ul class="recent">
+		{% for project in site.projects %}
+	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
+	    {% endfor %}
+	</ul>
+</div>
