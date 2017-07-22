@@ -41,7 +41,7 @@ links:
 # projects in header index
 projects:
   - name: MountainWeb
-    url: https://github.com/TheFenixfx/MountainWeb
+    url: http://github.com/TheFenixfx/MountainWeb
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
