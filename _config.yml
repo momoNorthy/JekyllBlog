@@ -1,6 +1,6 @@
 # Site settings
 title: "@JhonCoder Blog"
-description: "A blog about lorem ipsum ..."
+description: "A Programmer Blog"
 baseurl: ""
 url: '' 
 # User settings
@@ -28,15 +28,15 @@ compress_html:
 
 # Links to include in menu navigation
 links:
-  - title: home
+  - title: Home
     url: /
-  - title: my posts
+  - title: My Posts
     url: /posts
   - title: Think Tank
     url: /series
-  - title: tags
+  - title: Tags
     url: /tags
-  - title: about me
+  - title: About Me
     url: /about
 # projects in header index
 projects:
