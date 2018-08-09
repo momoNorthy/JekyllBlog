@@ -32,7 +32,7 @@ links:
     url: /
   - title: my posts
     url: /posts
-  - title: series
+  - title: Think Tank
     url: /series
   - title: tags
     url: /tags
@@ -42,6 +42,8 @@ links:
 projects:
   - name: MountainWeb
     url: http://github.com/TheFenixfx/MountainWeb
+  - name: LaLlavedelMar
+	url: https://www.lallavedelmar.com/
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
